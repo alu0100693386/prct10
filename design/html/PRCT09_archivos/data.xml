@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Matrices" NameU="Page-1">
+			<Layer IX="0">
+				<Name>Conector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="3" UniqueID="{7C8E9160-F3F8-4E78-9D67-AE84DBA14CEE}" Name="Rectángulo.3" NameU="Rectangle.3" Master="2">
+					<Text>Matriz</Text>
+					<XForm>
+						<PinX Unit="MM">7.992125984251970</PinX>
+						<PinY Unit="MM">7.995549469359808</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{F1E5B509-8E34-4F4F-9758-7FBBA394F58B}" Name="Rectángulo.8" NameU="Rectangle.8" Master="2">
+					<Text>ATRIBUTOS:
+:row (Fixnum)
+:col  (Fixnum)
+:data[] (Array)</Text>
+					<XForm>
+						<PinX Unit="MM">7.992125984251970</PinX>
+						<PinY Unit="MM">7.483738445737760</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{35549039-68D9-45DC-84A4-B1149A002963}" Name="Rectángulo.9" NameU="Rectangle.9" Master="2">
+					<Text>MÉTODOS:
+to_s()
+[](x,y) //data[x,y]
++(other)
+-(other)
+*(other)
+trasp()
+isDisp()
+
+initialize(row,col,value[])
+fillRow(row,array)
+fillCol(row,array)</Text>
+					<XForm>
+						<PinX Unit="MM">7.992125984251970</PinX>
+						<PinY Unit="MM">6.202499144128722</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{19D4E577-568D-4935-A786-F422A483C583}" Name="Rectángulo.13" NameU="Rectangle.13" Master="2">
+					<Text>MatrizEnteros</Text>
+					<XForm>
+						<PinX Unit="MM">10.236220472440943</PinX>
+						<PinY Unit="MM">7.361930578141048</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{6B3CC1A8-4DEC-4FD7-86EB-F3CD85586927}" Name="Rectángulo.14" NameU="Rectangle.14" Master="2">
+					<Text>ATRIBUTOS:</Text>
+					<XForm>
+						<PinX Unit="MM">10.236220472440946</PinX>
+						<PinY Unit="MM">7.105750920061625</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{0D58B755-5CBF-4B5F-ADA1-06AB5EEF15B9}" Name="Rectángulo.15" NameU="Rectangle.15" Master="2">
+					<Text>MÉTODOS:
+initialize(row,col,valuevalue[]) // value[]== Integer
+fillRow(row,array) // valores enteros
+fillCol(row,array) // valores enteros</Text>
+					<XForm>
+						<PinX Unit="MM">10.236220472440943</PinX>
+						<PinY Unit="MM">6.612777756975351</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{E44B8BFC-A2A0-47D6-A917-F376986D9FEA}" Name="Rectángulo.16" NameU="Rectangle.16" Master="2">
+					<Text>MatrizRacionales</Text>
+					<XForm>
+						<PinX Unit="MM">8.897637795275593</PinX>
+						<PinY Unit="MM">3.231207988050761</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{0E3C4DD8-6020-416C-93AC-549D3EBA91E9}" Name="Rectángulo.17" NameU="Rectangle.17" Master="2">
+					<Text>ATRIBUTOS:</Text>
+					<XForm>
+						<PinX Unit="MM">8.897637795275593</PinX>
+						<PinY Unit="MM">2.982357326580644</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{FC53C084-1820-4988-84DA-601FA6160EF0}" Name="Rectángulo.18" NameU="Rectangle.18" Master="2">
+					<Text>MÉTODOS:
+initialize(row,col,value[]) //value[]== Racional
+fillRow(row,array) // valores racionales
+fillCol(row,array) // valores racionales</Text>
+					<XForm>
+						<PinX Unit="MM">8.897637795275589</PinX>
+						<PinY Unit="MM">2.440082542351874</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{17360610-CAF0-4628-9111-9E73A78690B2}" Name="Rectángulo.26" NameU="Rectangle.26" Master="2">
+					<Text>Racional</Text>
+					<XForm>
+						<PinX Unit="MM">5.708661417322834</PinX>
+						<PinY Unit="MM">4.570352618966107</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{B6BD2CDB-017C-4822-8C2E-4866621C5672}" Name="Rectángulo.27" NameU="Rectangle.27" Master="2">
+					<Text>ATRIBUTOS:
+:n (Fixnum)
+:d  (Fixnum)</Text>
+					<XForm>
+						<PinX Unit="MM">5.708661417322834</PinX>
+						<PinY Unit="MM">4.107754193769255</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{92669FF2-3B50-4B85-8B23-A36BB465BC3F}" Name="Rectángulo.28" NameU="Rectangle.28" Master="2">
+					<Text>MÉTODOS:
+initialize(n,d)
+to_s()
+to_s_fracc()
+to_d()
+num()
+denom()
+reducida()
+-@
+abs()
+reciproca()
++(other)
+-(other)
+*(other)
+/(other)
+%(other)
+ó(other)</Text>
+					<XForm>
+						<PinX Unit="MM">5.708661417322834</PinX>
+						<PinY Unit="MM">2.552636083533033</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{60C40CFD-A136-43EE-84C5-893F36765F59}" Name="Rectángulo.10" NameU="Rectangle.10" Master="2">
+					<Text>MatrizDispersa</Text>
+					<XForm>
+						<PinX Unit="MM">5.393700787401571</PinX>
+						<PinY Unit="MM">7.995549469359808</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{FA3C841C-0C36-46B6-A327-F061ACB548E5}" Name="Rectángulo.11" NameU="Rectangle.11" Master="2">
+					<Text>ATRIBUTOS:
+:representacion (String)
+:porcVacio (Fixnum)
+:A[] (Array)
+:IA[] (Array)
+:JA[] (Array)</Text>
+					<XForm>
+						<PinX Unit="MM">5.393700787401571</PinX>
+						<PinY Unit="MM">7.410632774164101</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{B3A06D70-0ABC-482B-9546-6265FA862067}" Name="Rectángulo.12" NameU="Rectangle.12" Master="2">
+					<Text>MÉTODOS:
+[]=(x,y,value)//data[x,y]=value
++(other)
+-(other)
+*(other)
+trasp()
+updatePorc()
+isDensa()
+
+initialize(row,col,value[],representacion)
+initialize(_A[],_IA[],_JA[],representacion,porcVacio)
+fillRow(row,array)
+fillCol(row,array)</Text>
+					<XForm>
+						<PinX Unit="MM">5.393700787401571</PinX>
+						<PinY Unit="MM">6.003937007874017</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{583F45C5-E7DE-494D-96B4-38062B74CD54}" Name="Conector dinámico.30" NameU="Dynamic connector.30" Master="3">
+					<XForm>
+						<PinX Unit="MM">6.968503937007873</PinX>
+						<PinY Unit="MM">7.995549469359808</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="1" UniqueID="{3C29BF1F-831C-453A-B985-4EA2CFE2001F}" Name="Rectángulo.1" NameU="Rectangle.1" Master="2">
+					<Text>MatrizDispersaEnteros</Text>
+					<XForm>
+						<PinX Unit="MM">1.968503937007873</PinX>
+						<PinY Unit="MM">7.523108524477918</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{BB1DC959-54DC-4043-9E01-231BC7D5BAC9}" Name="Rectángulo.2" NameU="Rectangle.2" Master="2">
+					<Text>ATRIBUTOS:</Text>
+					<XForm>
+						<PinX Unit="MM">1.968503937007873</PinX>
+						<PinY Unit="MM">7.213782380463313</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{A18E7554-056B-41E1-9352-7140B85D63D6}" Name="Rectángulo.4" NameU="Rectangle.4" Master="2">
+					<Text>MÉTODOS:
+initialize(row,col,value[],representacion)// value[]== Integer
+initialize(_A[],_IA[],_JA[],representacion,porcVacio) //_A == Integer
+fillRow(row,array) //valores enteros
+fillCol(row,array) //valores enteros</Text>
+					<XForm>
+						<PinX Unit="MM">1.968503937007873</PinX>
+						<PinY Unit="MM">6.633858267716534</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{90EB8C7B-C4FD-4E8E-B6A8-80D24B374D6B}" Name="Rectángulo.6" NameU="Rectangle.6" Master="2">
+					<Text>MatrizDispersaRacionales</Text>
+					<XForm>
+						<PinX Unit="MM">1.968503937007874</PinX>
+						<PinY Unit="MM">5.475864429989730</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{1AF648A5-B744-4050-9C68-899EF2808F63}" Name="Rectángulo.7" NameU="Rectangle.7" Master="2">
+					<Text>ATRIBUTOS:</Text>
+					<XForm>
+						<PinX Unit="MM">1.968503937007874</PinX>
+						<PinY Unit="MM">5.196065845030241</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{03154894-1FC2-490C-8280-075A5953B95C}" Name="Rectángulo.23" NameU="Rectangle.23" Master="2">
+					<Text>MÉTODOS:
+initialize(row,col,value[],representacion)//value == Racional
+initialize(_A[],_IA[],_JA[],representacion,porcVacio) //_A == Racional
+fillRow(row,array) //valores racionales
+fillCol(row,array) //valores racionales</Text>
+					<XForm>
+						<PinX Unit="MM">1.968503937007874</PinX>
+						<PinY Unit="MM">4.635826771653542</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{DE4B89CB-F5DD-469E-86A0-3FB76801E1CD}" Name="Conector dinámico" NameU="Dynamic connector" Master="3">
+					<XForm>
+						<PinX Unit="MM">9.507874015748030</PinX>
+						<PinY Unit="MM">7.737932214994864</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="20" UniqueID="{2713D13A-E2BC-4220-97FE-C99660DA1585}" Name="Conector dinámico.20" NameU="Dynamic connector.20" Master="3">
+					<Text>requires</Text>
+					<XForm>
+						<PinX Unit="MM">6.983267716535434</PinX>
+						<PinY Unit="MM">2.891922035791897</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="19" UniqueID="{141F957F-FD2E-458C-A484-6D53C97F47FE}" Name="Conector dinámico.19" NameU="Dynamic connector.19" Master="3">
+					<Text>requires</Text>
+					<XForm>
+						<PinX Unit="MM">4.434055118110236</PinX>
+						<PinY Unit="MM">3.594231427593288</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="21" UniqueID="{7C990A3A-EBAB-47AD-9079-CF26D244821F}" Name="Conector dinámico.21" NameU="Dynamic connector.21" Master="3">
+					<XForm>
+						<PinX Unit="MM">3.011811023622045</PinX>
+						<PinY Unit="MM">5.816929133858269</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="24" UniqueID="{84E83E48-62D3-4698-AA47-1CE84C8C50BC}" Name="Conector dinámico.24" NameU="Dynamic connector.24" Master="3">
+					<XForm>
+						<PinX Unit="MM">3.011811023622045</PinX>
+						<PinY Unit="MM">7.836357411845258</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="22" UniqueID="{EC855A67-822B-4343-814A-B40A60F98262}" Name="Conector dinámico.22" NameU="Dynamic connector.22" Master="3">
+					<XForm>
+						<PinX Unit="MM">8.444881889763781</PinX>
+						<PinY Unit="MM">4.311023622047244</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
