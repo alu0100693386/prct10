@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Matriz::VERSION
   spec.authors       = ["Cristian Luis"]
   spec.email         = ["alu0100693386@ull.edu.es"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Librearía para representar matrices}
+  spec.summary       = %q{Se pretende crear una clase matriz capaz de generar, representar y operar con matrices densas y sispersas tanto con fracciones como con enteros.}
+  spec.homepage      = "https://github.com/alu0100693386/prct09.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,10 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'guard'
+  spec.add_development_dependency 'guard-rspec'
+  spec.add_development_dependency 'guard-bundler'
+
+
 end

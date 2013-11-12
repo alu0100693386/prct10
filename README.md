@@ -9,4 +9,9 @@ Pasos seguidos para la creación de esta gema:
 
 3.1.- Añadimos la dependencias a pruebas RSpec.
 
-3.2.-
+3.2.- No es necesario añadir dependencias a los Test pues no se riguen por una gema.
+
+3.3.- Se añaden las dependencias de guard.
+
+4.- Se añade el desarrollo integrado a través de travis.
+
