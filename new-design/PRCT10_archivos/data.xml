@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Matrices" NameU="Page-1">
+			<Layer IX="0">
+				<Name>Conector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="3" UniqueID="{7C8E9160-F3F8-4E78-9D67-AE84DBA14CEE}" Name="Rectángulo.3" NameU="Rectangle.3" Master="2">
+					<Text>Matriz</Text>
+					<XForm>
+						<PinX Unit="MM">7.992125984251970</PinX>
+						<PinY Unit="MM">7.995549469359808</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{F1E5B509-8E34-4F4F-9758-7FBBA394F58B}" Name="Rectángulo.8" NameU="Rectangle.8" Master="2">
+					<Text>ATRIBUTOS:
+:row (Fixnum)
+:col  (Fixnum)
+:data[] (Array)</Text>
+					<XForm>
+						<PinX Unit="MM">7.992125984251970</PinX>
+						<PinY Unit="MM">7.483738445737760</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{35549039-68D9-45DC-84A4-B1149A002963}" Name="Rectángulo.9" NameU="Rectangle.9" Master="2">
+					<Text>MÉTODOS:
+to_s()
+[](x,y) //data[x,y]
++(other)
+-(other)
+*(other)
+trasp()
+isDisp()
+
+initialize(row,col,value[])
+fillRow(row,array)
+fillCol(row,array)</Text>
+					<XForm>
+						<PinX Unit="MM">7.992125984251970</PinX>
+						<PinY Unit="MM">6.202499144128722</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{17360610-CAF0-4628-9111-9E73A78690B2}" Name="Rectángulo.26" NameU="Rectangle.26" Master="2">
+					<Text>Racional</Text>
+					<XForm>
+						<PinX Unit="MM">10.226377952755904</PinX>
+						<PinY Unit="MM">7.129407737076343</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{B6BD2CDB-017C-4822-8C2E-4866621C5672}" Name="Rectángulo.27" NameU="Rectangle.27" Master="2">
+					<Text>ATRIBUTOS:
+:n (Fixnum)
+:d  (Fixnum)</Text>
+					<XForm>
+						<PinX Unit="MM">10.226377952755904</PinX>
+						<PinY Unit="MM">6.666809311879490</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{92669FF2-3B50-4B85-8B23-A36BB465BC3F}" Name="Rectángulo.28" NameU="Rectangle.28" Master="2">
+					<Text>MÉTODOS:
+initialize(n,d)
+to_s()
+to_s_fracc()
+to_d()
+num()
+denom()
+reducida()
+-@
+abs()
+reciproca()
++(other)
+-(other)
+*(other)
+/(other)
+%(other)
+ó(other)</Text>
+					<XForm>
+						<PinX Unit="MM">10.226377952755904</PinX>
+						<PinY Unit="MM">5.111691201643268</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{60C40CFD-A136-43EE-84C5-893F36765F59}" Name="Rectángulo.10" NameU="Rectangle.10" Master="2">
+					<Text>MatrizDispersa</Text>
+					<XForm>
+						<PinX Unit="MM">5.393700787401571</PinX>
+						<PinY Unit="MM">7.995549469359808</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{FA3C841C-0C36-46B6-A327-F061ACB548E5}" Name="Rectángulo.11" NameU="Rectangle.11" Master="2">
+					<Text>ATRIBUTOS:
+:representacion (String)
+:nnz(Fixnum)
+:porcVacio (Fixnum)
+:A[] (Array)
+:IA[] (Array)
+:JA[] (Array)</Text>
+					<XForm>
+						<PinX Unit="MM">5.393700787401571</PinX>
+						<PinY Unit="MM">7.312207577313707</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{B3A06D70-0ABC-482B-9546-6265FA862067}" Name="Rectángulo.12" NameU="Rectangle.12" Master="2">
+					<Text>MÉTODOS:
++(other)
+*(other)
+to_s()
+to_sparseString()
+initialize(row,col,value[],representacion)
+construirCOO(v[])
+construirCSR(v[])
+pasarCSR()
+pasarCOO()
+pasarCOO!()
+pasarCSR!()
+cambiarRepresentacion()
+to_densa()
+to_densaCOO()
+to_densaCSR()
+multiplicacionK(k)
+mix()
+max()</Text>
+					<XForm>
+						<PinX Unit="MM">5.393700787401571</PinX>
+						<PinY Unit="MM">5.393700787401576</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{583F45C5-E7DE-494D-96B4-38062B74CD54}" Name="Conector dinámico.30" NameU="Dynamic connector.30" Master="3">
+					<XForm>
+						<PinX Unit="MM">6.968503937007873</PinX>
+						<PinY Unit="MM">7.995549469359808</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="20" UniqueID="{2713D13A-E2BC-4220-97FE-C99660DA1585}" Name="Conector dinámico.20" NameU="Dynamic connector.20" Master="3">
+					<Text>requires</Text>
+					<XForm>
+						<PinX Unit="MM">9.212598425196850</PinX>
+						<PinY Unit="MM">5.657095172885995</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
