@@ -22,15 +22,8 @@
 
     Matriz => Clase de matriz generica
 
-    MatrizEnteros < Matriz => Clase de matriz para enteros
-  
-    MatrizRacionales < Matriz => Clase de matriz para numeros racionales
-
     MatrizDispersa => Clase de matriz dispersa generica
 
-    MatrizDispersaEnteros < MatrizDispersa => Clase de matriz dispersa para numeros enteros
-
-    MatrizDispersaRacionales < MatrizDispersa => Clase de matriz dispersa para numeros enteros
 
 ####Métodos
-![diagrama](https://raw.github.com/alu0100693386/prct09/master/design/design.png "Diagrama matrices")
+![diagrama](https://raw.github.com/alu0100693386/prct10/master/new-design/PRCT10.png "Diagrama matrices")
